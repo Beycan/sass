@@ -1,0 +1,29 @@
+// @mixin button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%)) {
+//     background-color: $active-background;
+//     margin-left: 5px;
+// }
+
+[class^="btn"] {
+    margin-left: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    // box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
+}
+[class^="btn"]:hover {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
+}
+
+@mixin button-variant($background, $border){
+    background: $background;
+    border: $border;
+    color: $white;
+}
+
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+      @include button-variant($value,$value);
+      // @include button-variant($value, $value);
+
+  }
+}

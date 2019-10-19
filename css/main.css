@@ -1,0 +1,55 @@
+[class^="btn"] {
+  margin-left: 5px;
+  border-radius: 3px;
+  padding: 10px; }
+
+[class^="btn"]:hover {
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24); }
+
+.btn-fresa {
+  background: #c6262e;
+  border: #c6262e;
+  color: #fff; }
+
+.btn-naranja {
+  background: #f37329;
+  border: #f37329;
+  color: #fff; }
+
+.btn-platano {
+  background: #f9c440;
+  border: #f9c440;
+  color: #fff; }
+
+.btn-lima {
+  background: #68b723;
+  border: #68b723;
+  color: #fff; }
+
+.btn-arandano {
+  background: #3689e6;
+  border: #3689e6;
+  color: #fff; }
+
+.btn-uva {
+  background: #a56de2;
+  border: #a56de2;
+  color: #fff; }
+
+.btn-cacao {
+  background: #715344;
+  border: #715344;
+  color: #fff; }
+
+.btn-pizarra {
+  background: #485a6c;
+  border: #485a6c;
+  color: #fff; }
+
+.card {
+  border-top: 4px solid #3689e6;
+  padding: 15px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24); }
